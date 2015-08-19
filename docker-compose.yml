@@ -28,5 +28,5 @@ back:
   env_file: ./compose/settings.env
 
 db:
-  image: postgres:9.4
+  image: openshift/postgresql-92-centos7
   env_file: ./compose/settings.env

@@ -58,11 +58,11 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.getenv('POSTGRES_DBNAME', 'app'),
-        'USER': os.getenv('POSTGRES_USER', 'app'),
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'app'),
-        'HOST': os.getenv('POSTGRES_HOST', 'db'),
-        'PORT': os.getenv('POSTGRES_PORT', 5432),
+        'NAME': os.getenv('POSTGRESQL_DATABASE', 'app'),
+        'USER': os.getenv('POSTGRESQL_USER', 'app'),
+        'PASSWORD': os.getenv('POSTGRESQL_PASSWORD', 'app'),
+        'HOST': os.getenv('POSTGRESQL_HOST', 'db'),
+        'PORT': os.getenv('POSTGRESQL_PORT', 5432),
     }
 }
 

@@ -17,7 +17,7 @@ back:
   env_file: ./compose/settings_ci.env
 
 db:
-  image: postgres:9.4
+  image: openshift/postgresql-92-centos7
   env_file: ./compose/settings_ci.env
 
 hub:
