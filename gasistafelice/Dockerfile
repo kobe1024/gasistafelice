@@ -1,4 +1,4 @@
-FROM kobe25/uwsgi-python2:latest
+FROM befair/uwsgi-python2:latest
 
 ENV LC_ALL                  it_IT.UTF-8
 ENV LANG                    it_IT.UTF-8
