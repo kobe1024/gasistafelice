@@ -1,7 +1,5 @@
 FROM kobe25/uwsgi-python2:latest
 
-MAINTAINER Antonio Esposito "kobe@befair.it"
-
 ENV LC_ALL                  it_IT.UTF-8
 ENV LANG                    it_IT.UTF-8
 ENV LANGUAGE                it_IT.UTF-8
